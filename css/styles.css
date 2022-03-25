@@ -67,6 +67,17 @@ h3 {
     right: 30%;
 }
 
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
 /* Features */
 #features {
     padding: 7% 15% 7% 15%;
@@ -123,4 +134,28 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* cta */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 3% 15%;
+}
+
+/* footer */
+#footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer a {
+    color: black;
+    margin: 1%;
+}
+
+#footer p {
+    margin-top: 2%;
 }

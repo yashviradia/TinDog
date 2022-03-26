@@ -11,7 +11,6 @@
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -32,8 +31,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [TinDog](https://yashviradia.github.io/TinDog/)
 
 ## My process
 
@@ -47,19 +45,38 @@
 
 ### What I learned
 
+- Wireframing
+- CSS Grid Layout system
+- Bootstrap Containers
+- Bootstrap Carousel
+- Bootstrap Cards
+- CSS Z-Index
+- Media Query Breakpoints
+  - ```css
+    @media (max-width: 1028px) {
+       .title-image {
+         position: static;
+         transform: rotate(0);
+       }
+
+       #title {
+         text-align: center;
+       }
+    }
+    ```
 
 
 ### Continued development
 
-- Turn this single page website into multiple pages.
-
-### Useful resources
+- Turn this single page website into a website with multiple pages.
 
 
 ## Author
 
 - Website - [Yash Viradia](http://yashviradia.tech/)
-- Twitter - [@theyashviradia](https://twitter.com/theyashviradia)
+- Twitter - [theyashviradia](https://twitter.com/theyashviradia)
 
 ## Acknowledgments
 
+- Project Idea - [LondonAppBrewery](https://www.londonappbrewery.com/)
+- Icons - [FontAwesome](https://fontawesome.com/)
